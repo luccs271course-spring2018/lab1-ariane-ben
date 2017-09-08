@@ -1,23 +1,19 @@
-public class fizzbuzz{
+class FizzBuzz{
+    public static void main(String[] args){
 
-    public void static( string[] args)
-    int n = 17;
-          for( i = 0; i < n; i++) {
+        for(int i = 1 ; i <= 17 ; ++i){
+            String str;
+            if(i % (5*3) == 0){
+                str = "FizzBuzz";
+            }else if(i % 3 == 0){
+                str = "Fizz";
+            }else if(i % 5 == 0){
+                str = "Buzz";
+            }else
 
-        if (i % 3 == 0) {
-            System.out.print("fizz");
+                str = Integer.toString(i);
+
+            System.out.println(str);
         }
-
-        elseif (i % 5 == 0) {
-            System.out.print("buzz");
-        }
-
-        elseif (i % 15 == 0) {
-            System.out.print("fizzbuzz");
-        }
-             else {
-            System.out.print(i);
-        }
-
     }
-
+}
