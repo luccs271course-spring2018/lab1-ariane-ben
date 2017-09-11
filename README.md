@@ -5,10 +5,11 @@ one based on the source code, and one based on an incorrect test.
 
 # Learning Objectives
 
-* Simple hello world example
+* Simple Fizzbuzz example
 * Building with Gradle (using the Gradle wrapper)
 * Automated unit testing with JUnit
 * Continuous integration with Travis
+* 
 
 # System requirements
 
@@ -47,7 +48,7 @@ or
 
     $ java -jar build/lib/hello-java.jar arg1 arg2 arg3
 
-On Windows:
+On on Windows:
 
     > .\build\scripts\hello-java arg1 arg2 arg3
 
